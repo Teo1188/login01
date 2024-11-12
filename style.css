@@ -94,13 +94,13 @@
     right: 0;
     width: 45px;
     height: 45px;
-    background: #fff;
+    background: transparent;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     border-bottom-left-radius: 10px;
-
+    box-shadow: -1px 0 10px rgba(0, 0, 0, .2);
 }
 
 .icon-close i {
