@@ -52,7 +52,7 @@
     position: absolute;
     left: 0;
     bottom: -4px;
-    width: 100%
+    width: 100%;
     height: 2px;
     background: #fff;
 }
@@ -79,10 +79,49 @@
     justify-content: center;
     flex-direction: column;
     padding: 0 40px;
+    /*opacity: 0;
+    pointer-events: none;*/
+}
+
+.icon-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+
+}
+
+.icon-close i {
+    font-size: 32px;
+    color: #333;
+
 }
 
 .wrapper .logreg-box {
     width: 100%;
+}
+
+.wrapper .form-box.login {
+    display: block;
+}
+
+.wrapper.active .form-box.login {
+    display: none;
+}
+
+.wrapper .form-box.register {
+    display: none;
+}
+
+.wrapper.active .form-box.register {
+    display: block;
 }
 
 .logreg-box .logreg-title {
